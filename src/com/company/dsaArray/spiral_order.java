@@ -6,9 +6,7 @@ package com.company.dsaArray;
 public class spiral_order {
 
     public int [][] generateMatrix(int A){
-
         int[][]  res = new int[A][A];
-
         int dir = 0;
         int i = 0;
         int j = 0;
@@ -47,7 +45,6 @@ public class spiral_order {
                 }
             }
         }
-
         return res;
     }
 }

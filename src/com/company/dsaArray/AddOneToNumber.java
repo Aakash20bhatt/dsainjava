@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class AddOneToNumber {
-
+ 
     public static int[] addOneToNum(int[] A){
         int count = 0 ;
 

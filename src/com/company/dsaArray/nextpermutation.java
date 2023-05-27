@@ -1,6 +1,12 @@
 package com.company.dsaArray;
-
-// 1 5 8 4 7 6 5 3 1
+//Implement the next permutation, which rearranges numbers into the numerically next greater permutation of numbers for a given array A of size N.
+//
+//If such arrangement is not possible, it must be rearranged as the lowest possible order, i.e., sorted in ascending order.
+//
+//NOTE:
+//
+//The replacement must be in-place, do not allocate extra memory.
+//DO NOT USE LIBRARY FUNCTION FOR NEXT PERMUTATION. Use of Library functions will disqualify your submission retroactively and will give you penalty points.
 
 public class nextpermutation {
 

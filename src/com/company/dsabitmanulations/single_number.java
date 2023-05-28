@@ -1,4 +1,4 @@
-package com.company.dsaArray;
+package com.company.dsabitmanulations;
 
 public class single_number {
 

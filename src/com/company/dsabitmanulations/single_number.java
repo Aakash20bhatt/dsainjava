@@ -9,7 +9,7 @@ public class single_number {
         for(int i=1; i<n; i++){
             ans ^= A[i];
         }
-
+ 
         return ans;
     }
 }

@@ -12,22 +12,25 @@ package com.company.dsabitmanulations;
 public class divide_integers {
 
     public int solve(int A, int B){
-        long n = A, m = B;
+        long n = A;
+        long m = B;
+
         int sign = 1;
 
-        if((n<0 && m>=0)||(m<0 && n>=0)){
+        if((n<0 && m>=0) || (m<0 && n>=0)){
             sign=-1;
         }
 
         n = Math.abs(n);
         m = Math.abs(m);
 
-        long q  = 0, t = 0;
+        long t = 0;
+        long q = 0;
 
         for(int i=31; i>=0; i--){
             if(t+(m<<i)<=n){
                 t+=m<<i;
-                q |= (long)1<<i;
+                q|=(long)1<<i;
             }
         }
 
